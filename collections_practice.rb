@@ -38,6 +38,8 @@ def add_s(array)
   array.collect do |string|
     if string != array[1]
       string = string + "s"
+    else
+      string
     end
   end
 end
