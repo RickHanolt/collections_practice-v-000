@@ -35,5 +35,8 @@ def sum_array(array)
 end
 
 def add_s(array)
-
+  array.collect do |string|
+    if string != array[1]
+      string = string + "s"
+  end
 end
